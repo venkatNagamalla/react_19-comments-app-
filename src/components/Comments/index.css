@@ -1,0 +1,156 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 30px;
+}
+
+.comments-heading {
+  color: #1e293b;
+  font-size: 40px;
+}
+
+.people-image {
+  width: 80%;
+  align-self: center;
+}
+
+.image-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .image-form-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .image-container {
+    width: 50%;
+    order: 2;
+  }
+
+  .people-image {
+    width: 65%;
+  }
+}
+
+.form-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    width: 30%;
+    order: 1;
+  }
+}
+
+.side-heading {
+  color: #475569;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .side-heading {
+    margin-top: 0px;
+  }
+}
+
+.input-text {
+  width: 100%;
+  margin-top: 10px;
+  height: 38px;
+  border: 2px solid #dee0e3;
+  border-radius: 5px;
+  color: #1e293b;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+}
+
+.text-area {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  color: #1e293b;
+  border: 2px solid #dee0e3;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.add-comment-btn {
+  background-color: #0284c7;
+  height: 33px;
+  width: 110px;
+  border: none;
+  color: #cbd2d9;
+  cursor: pointer;
+  outline: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+hr {
+  border-color: #cbd2d9;
+  border-width: 1px;
+  margin-top: 15px;
+}
+
+.comments-count-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.comment-count {
+  background-color: #0b69ff;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.comment-side-heading {
+  color: #475569;
+  font-weight: bold;
+}
+
+.list-container {
+  list-style: none;
+}
